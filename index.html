@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik</title>
+    <link rel="stylesheet" href = "CSS_Style/style.css">
+    <script src="JS/index.js"></script>
+</head>
+<body>
+    <header id = "navigation_bar">
+        <h1 id = "logo">Katik</h1>
+    </header>
+    <below_header id = "below_navigation">
+        <button class = "lksegitiga" href="" onclick="tampilLayar('tampilanluas')">Luas Segitiga</button>
+        <button class = "lksegitiga" href="" onclick="tampilLayar('tampilankeliling')">Keliling Segitiga</button>
+    </below_header>
+    <tampilan class = "section_part" id="tampilanluas">
+    <img class="img" src="img/Capture.PNG">
+    <div class="line"></div>
+        <b class = "katik">
+            <input type="number" id="bar_tinggi" class ="katik_segitiga1" placeholder = "Tinggi Segitiga" oninput="validateInput(this)">
+            <input type="number" id="bar_alas" class ="katik_segitiga2" placeholder = "Alas Segitiga" oninput="validateInput(this)">    
+        </b>
+        <div class ="button">
+            <button type="button" class="calcbutton" onclick="resetAngkaLuas()">Reset</button>
+            <button type="button" class="calcbutton" onclick="hitungluas()">Hitung</button>
+        </div>
+        <p id="resultluas"></p>
+    </tampilan>
+    <tampilan class = "section_part" id="tampilankeliling">
+        <img class="img" src="img/Capture1.PNG">
+    <div class="line"></div>
+        <b class = "katik">
+            <input type="number" id="sisi_a" class ="katik_segitiga1" placeholder = "Sisi A" oninput="validateInput(this)">
+            <input type="number" id="sisi_b" class ="katik_segitiga2" placeholder = "Sisi B" oninput="validateInput(this)">
+            <input type="number" id="sisi_c" class ="katik_segitiga2" placeholder = "Sisi C" oninput="validateInput(this)">        
+        </b>
+        <div class ="button">
+            <button type="button" class="calcbutton" onclick="resetAngkaKeliling()">Reset</button>
+            <button type="button" class="calcbutton" onclick="hitungKeliling()">Hitung</button>
+        </div>
+        <p id="resultkeliling"></p>
+    </tampilan>
+</body> 
+</html> 

@@ -1,0 +1,108 @@
+body{
+    font-family: "Times New Roman";
+}
+
+#navigation_bar{
+    border-bottom: 1px solid rgb(114, 247, 252);
+}
+
+#logo{
+
+    text-align : center;
+}
+
+/*Below Navigation*/
+
+#below_navigation{
+    border-bottom: 1px solid rgb(114, 247, 252);
+}
+
+#below_navigation{
+    justify-content: space-evenly;
+    display: flex;
+    color: white;
+    background-color: rgb(114, 247, 252); 
+    padding: 4px;
+    font-size: 18px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.line{
+    border-bottom: 5px solid black;
+}
+
+.katik_segitiga1{
+    border-radius: 5px;
+}
+
+.katik_segitiga2{
+    border-radius: 5px;
+}
+
+.lksegitiga{
+    text-decoration: none;
+    color: white;
+    width: 1200px;
+}
+
+.lksegitiga:hover{
+    background-color: rgb(20, 163, 168, 0.603); 
+}
+
+.katik{
+    display: flex;  
+    flex-direction: column;
+    padding : 5px;
+    gap : 5px;
+}
+
+.katik_segitiga{
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid rgb(114, 247, 252); 
+    cursor : pointer;
+    margin-top: 8px;
+}
+
+.katik_segitiga:focus{
+    border : 1px solid black;
+}
+
+button{
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 247, 252); 
+    background-color: rgb(114, 247, 252); 
+    margin-left: 4px;
+    border : none;
+    cursor : pointer;
+}
+
+.calcbutton{
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(114, 247, 252); 
+    background-color: rgb(114, 247, 252); 
+    margin-left: 4px;
+    border : none;
+    cursor : pointer;
+}
+
+.calcbutton:hover{
+    background-color: rgb(20, 163, 168, 0.603); 
+}
+
+.calcbutton:active{
+    transform: translateY(2px) translateX(2px);
+    background-color: rgb(20, 163, 168, 0.603); 
+}
+
+.section_part{  
+    display: none;
+}
